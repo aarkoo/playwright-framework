@@ -1,0 +1,46 @@
+﻿npx : Error: 
+playwright.config.js: 
+Playwright requires 
+Node.js 18.19 or higher 
+to load esm modules. 
+Please update your 
+version of Node.js.
+At line:1 char:1
++ npx playwright test test
+s/pageobjectloginpage.spec
+.js *>&1 | Out-File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (E  
+  rror: playwrig...ion    
+ of Node.js.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+    at errorWithFile 
+(D:\playwright e2eframewor
+k\node_modules\playwright\
+lib\util.js:198:10)
+    at loadConfig 
+(D:\playwright e2eframewor
+k\node_modules\playwright\
+lib\common\configLoader.js
+:115:43)
+    at loadConfigFromFile 
+(D:\playwright e2eframewor
+k\node_modules\playwright\
+lib\common\configLoader.js
+:331:16)
+    at runTests 
+(D:\playwright e2eframewor
+k\node_modules\playwright\
+lib\program.js:197:67)
+    at async 
+i.<anonymous> 
+(D:\playwright e2eframewor
+k\node_modules\playwright\
+lib\program.js:70:7)
